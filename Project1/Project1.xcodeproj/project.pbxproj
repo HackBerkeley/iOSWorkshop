@@ -7,28 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0587F2D31490192D00273D74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0587F2CB1490192D00273D74 /* AppDelegate.m */; };
+		0587F2D41490192D00273D74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0587F2CC1490192D00273D74 /* InfoPlist.strings */; };
+		0587F2D51490192D00273D74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0587F2CE1490192D00273D74 /* main.m */; };
+		0587F2D61490192D00273D74 /* Project1-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0587F2CF1490192D00273D74 /* Project1-Info.plist */; };
+		0587F2D71490192D00273D74 /* ViewControllerWithAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0587F2D21490192D00273D74 /* ViewControllerWithAlertView.m */; };
 		05E7711B1480545A00E7FD0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E7711A1480545A00E7FD0E /* UIKit.framework */; };
 		05E7711D1480545A00E7FD0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E7711C1480545A00E7FD0E /* Foundation.framework */; };
 		05E7711F1480545A00E7FD0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E7711E1480545A00E7FD0E /* CoreGraphics.framework */; };
-		05E771251480545A00E7FD0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05E771231480545A00E7FD0E /* InfoPlist.strings */; };
-		05E771271480545A00E7FD0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E771261480545A00E7FD0E /* main.m */; };
-		05E7712B1480545A00E7FD0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7712A1480545A00E7FD0E /* AppDelegate.m */; };
-		05E7712E1480545A00E7FD0E /* ViewControllerWithAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7712D1480545A00E7FD0E /* ViewControllerWithAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0587F2CA1490192D00273D74 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0587F2CB1490192D00273D74 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0587F2CD1490192D00273D74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0587F2CE1490192D00273D74 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0587F2CF1490192D00273D74 /* Project1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Project1-Info.plist"; sourceTree = "<group>"; };
+		0587F2D01490192D00273D74 /* Project1-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Project1-Prefix.pch"; sourceTree = "<group>"; };
+		0587F2D11490192D00273D74 /* ViewControllerWithAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerWithAlertView.h; sourceTree = "<group>"; };
+		0587F2D21490192D00273D74 /* ViewControllerWithAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerWithAlertView.m; sourceTree = "<group>"; };
 		05E771161480545A00E7FD0E /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E7711A1480545A00E7FD0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05E7711C1480545A00E7FD0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		05E7711E1480545A00E7FD0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		05E771221480545A00E7FD0E /* Project1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Project1-Info.plist"; sourceTree = "<group>"; };
-		05E771241480545A00E7FD0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		05E771261480545A00E7FD0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		05E771281480545A00E7FD0E /* Project1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project1-Prefix.pch"; sourceTree = "<group>"; };
-		05E771291480545A00E7FD0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		05E7712A1480545A00E7FD0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		05E7712C1480545A00E7FD0E /* ViewControllerWithAlertView.h */ = {isa = PBXFileReference; path = ViewControllerWithAlertView.h; sourceTree = "<group>"; };
-		05E7712D1480545A00E7FD0E /* ViewControllerWithAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerWithAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +46,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0587F2C91490192D00273D74 /* Project1 */ = {
+			isa = PBXGroup;
+			children = (
+				0587F2D91490194D00273D74 /* Classes */,
+				0587F2D81490193500273D74 /* Supporting Files */,
+			);
+			path = Project1;
+			sourceTree = "<group>";
+		};
+		0587F2D81490193500273D74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0587F2CC1490192D00273D74 /* InfoPlist.strings */,
+				0587F2CE1490192D00273D74 /* main.m */,
+				0587F2CF1490192D00273D74 /* Project1-Info.plist */,
+				0587F2D01490192D00273D74 /* Project1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0587F2D91490194D00273D74 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0587F2CA1490192D00273D74 /* AppDelegate.h */,
+				0587F2CB1490192D00273D74 /* AppDelegate.m */,
+				0587F2D11490192D00273D74 /* ViewControllerWithAlertView.h */,
+				0587F2D21490192D00273D74 /* ViewControllerWithAlertView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		05E7710B1480545A00E7FD0E = {
 			isa = PBXGroup;
 			children = (
-				05E771201480545A00E7FD0E /* Project1 */,
+				0587F2C91490192D00273D74 /* Project1 */,
 				05E771191480545A00E7FD0E /* Frameworks */,
 				05E771171480545A00E7FD0E /* Products */,
 			);
@@ -70,30 +102,6 @@
 				05E7711E1480545A00E7FD0E /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		05E771201480545A00E7FD0E /* Project1 */ = {
-			isa = PBXGroup;
-			children = (
-				05E771291480545A00E7FD0E /* AppDelegate.h */,
-				05E7712A1480545A00E7FD0E /* AppDelegate.m */,
-				05E7712C1480545A00E7FD0E /* ViewControllerWithAlertView.h */,
-				05E7712D1480545A00E7FD0E /* ViewControllerWithAlertView.m */,
-				05E771211480545A00E7FD0E /* Supporting Files */,
-			);
-			name = Project1;
-			path = "Project1-noNib";
-			sourceTree = "<group>";
-		};
-		05E771211480545A00E7FD0E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				05E771221480545A00E7FD0E /* Project1-Info.plist */,
-				05E771231480545A00E7FD0E /* InfoPlist.strings */,
-				05E771261480545A00E7FD0E /* main.m */,
-				05E771281480545A00E7FD0E /* Project1-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +154,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05E771251480545A00E7FD0E /* InfoPlist.strings in Resources */,
+				0587F2D41490192D00273D74 /* InfoPlist.strings in Resources */,
+				0587F2D61490192D00273D74 /* Project1-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,19 +166,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05E771271480545A00E7FD0E /* main.m in Sources */,
-				05E7712B1480545A00E7FD0E /* AppDelegate.m in Sources */,
-				05E7712E1480545A00E7FD0E /* ViewControllerWithAlertView.m in Sources */,
+				0587F2D31490192D00273D74 /* AppDelegate.m in Sources */,
+				0587F2D51490192D00273D74 /* main.m in Sources */,
+				0587F2D71490192D00273D74 /* ViewControllerWithAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		05E771231480545A00E7FD0E /* InfoPlist.strings */ = {
+		0587F2CC1490192D00273D74 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				05E771241480545A00E7FD0E /* en */,
+				0587F2CD1490192D00273D74 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
