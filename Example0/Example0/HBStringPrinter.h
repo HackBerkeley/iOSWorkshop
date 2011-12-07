@@ -12,12 +12,6 @@
 
 @property (nonatomic, retain) NSString *stringToPrint;
 
-//The code below replicates the property above
-/*
-- (void)setStringToPrint: (NSString *)stringToPrint;
-- (NSString *)stringToPrint;
-*/
-
 - (void)printString;
 
 @end

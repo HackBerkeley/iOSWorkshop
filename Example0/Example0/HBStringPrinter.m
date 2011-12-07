@@ -8,9 +8,7 @@
 
 #import "HBStringPrinter.h"
 
-@implementation HBStringPrinter {
-    NSString *_stringToPrint;
-}
+@implementation HBStringPrinter
 
 @synthesize stringToPrint=_stringToPrint;
 

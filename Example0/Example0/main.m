@@ -23,7 +23,6 @@ int main (int argc, const char * argv[])
         [stringPrinter1 printString];
         
         
-        
         [stringPrinter1 release];
         
     }
