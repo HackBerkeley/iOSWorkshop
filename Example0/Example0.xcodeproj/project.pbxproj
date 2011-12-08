@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D5F6D514904B1D00E567CE /* HBStringPrinterWithProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D5F6D414904B1D00E567CE /* HBStringPrinterWithProperties.m */; };
 		05E770FB14804B7000E7FD0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E770FA14804B7000E7FD0E /* Foundation.framework */; };
 		05E770FE14804B7000E7FD0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E770FD14804B7000E7FD0E /* main.m */; };
 		05E7710214804B7000E7FD0E /* Example0.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05E7710114804B7000E7FD0E /* Example0.1 */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		05D5F6D314904B1D00E567CE /* HBStringPrinterWithProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBStringPrinterWithProperties.h; sourceTree = "<group>"; };
+		05D5F6D414904B1D00E567CE /* HBStringPrinterWithProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBStringPrinterWithProperties.m; sourceTree = "<group>"; };
 		05E770F614804B7000E7FD0E /* Example0 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Example0; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E770FA14804B7000E7FD0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		05E770FD14804B7000E7FD0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				05E770FF14804B7000E7FD0E /* Supporting Files */,
 				05E7710814804DFA00E7FD0E /* HBStringPrinter.h */,
 				05E7710914804DFA00E7FD0E /* HBStringPrinter.m */,
+				05D5F6D314904B1D00E567CE /* HBStringPrinterWithProperties.h */,
+				05D5F6D414904B1D00E567CE /* HBStringPrinterWithProperties.m */,
 			);
 			path = Example0;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			files = (
 				05E770FE14804B7000E7FD0E /* main.m in Sources */,
 				05E7710A14804DFA00E7FD0E /* HBStringPrinter.m in Sources */,
+				05D5F6D514904B1D00E567CE /* HBStringPrinterWithProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +239,7 @@
 				05E7710714804B7000E7FD0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "HBStringPrinter.h"
+#import "HBStringPrinterWithProperties.h"
 
 int main (int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
         HBStringPrinter *stringPrinter1 = [[HBStringPrinter alloc] init];
         
         [stringPrinter1 printString];
@@ -21,7 +21,6 @@ int main (int argc, const char * argv[])
         [stringPrinter1 setStringToPrint:@"Hello, World!"];
         
         [stringPrinter1 printString];
-        
         
         [stringPrinter1 release];
         

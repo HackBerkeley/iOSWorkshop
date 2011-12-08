@@ -8,14 +8,18 @@
 
 #import "HBStringPrinter.h"
 
-@implementation HBStringPrinter
+@implementation HBStringPrinter {
+    NSString *_stringToPrint;
+}
 
-@synthesize stringToPrint=_stringToPrint;
++ (NSString *)defaultString {
+    return @"HBStringPrinter";
+}
 
 - (HBStringPrinter *)init {
     if (self != [super init]) return nil;
     
-    [self setStringToPrint:@"DEFAULT_STRING"];
+    [self setStringToPrint:[HBStringPrinter defaultString]];
     
     return self;
 }
@@ -23,8 +27,16 @@
 - (void)dealloc {
     
     [_stringToPrint release];
-    
     [super dealloc];
+}
+
+- (void)setStringToPrint:(NSString *)stringToPrint {
+    [_stringToPrint release];
+    _stringToPrint = [stringToPrint copy];
+}
+
+- (NSString *)stringToPrint {
+    return _stringToPrint;
 }
 
 - (void)printString {

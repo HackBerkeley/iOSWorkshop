@@ -10,7 +10,10 @@
 
 @interface HBStringPrinter : NSObject
 
-@property (nonatomic, retain) NSString *stringToPrint;
++ (NSString *) defaultString;
+
+- (void)setStringToPrint:(NSString *)stringToPrint;
+- (NSString *)stringToPrint;
 
 - (void)printString;
 
