@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  Project1-noNib
+//  Project1
 //
 //  Created by Ian Davis on 11/25/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2011 Hackers @ Berkeley. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
